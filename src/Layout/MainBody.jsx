@@ -1,6 +1,7 @@
 import CycleClassPage from "../Components/CycleClassPage";
 import Header from "./Header";
 import Footer from "./Footer";
+import {CycleFuncPage} from "../Components/CycleFuncPage";
 
 const MainBody = () => {
   return (
@@ -13,6 +14,7 @@ const MainBody = () => {
         </div>
         <div className="col-6">
           <h1>Function Based component</h1>
+          <CycleFuncPage />
         </div>
       </div>
     </div>
